@@ -1,0 +1,36 @@
+#sobre {
+    background-color: var(--cor-primaria);
+    display: flex;
+    gap: 5%;
+    color: var(--cor-secundaria);
+}
+
+#img-help {
+    height: 360px;
+    width: 600px;
+    margin: 6rem 0 8rem 8rem;
+    
+   
+}
+
+#titulo-help {
+    padding: 1rem 0 2rem 0;
+    font-family: var(--fonte-subtitulo);
+    font-size: 6rem;
+   
+}
+
+#subtexto-help {
+    font-family: var(--fonte-texto);
+    margin-left: 10rem;
+    width: 80%;
+    color: var(--cor-quaternaria);
+   
+}
+
+.lista-obj {
+    padding-bottom: 10px;
+    font-size: 2rem;
+    list-style-type: disc;
+    line-height: 120%;
+}

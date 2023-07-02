@@ -1,0 +1,84 @@
+footer {
+    background-color: var( --cor-terciaria);
+    color: var(--cor-primaria);
+    width: 100%;
+   bottom: 0px;
+   gap: 5%;
+   display: flex;
+   height: 16rem;
+}
+#contatos{
+    display: contents;
+  
+}
+#num{
+    position: relative;
+   top: 30px;
+   left: 1px;
+    font-size: 1rem;
+    height: 40px;
+    width: 90px;
+    padding: 1px 0 0 1px; 
+}
+#l-num {
+    position: relative;
+    top: 40px;
+    left: 5.6rem; 
+    
+    height: 40px;
+    width: 25px;
+    padding: 1px 0 0 1px; 
+}
+#t-gm{
+    position: relative;
+    top: 5.8rem;
+    right: 19rem; 
+    
+    height: 40px;
+    width: 170px;
+    padding: 1px 1 0 100px; 
+}
+#gm {
+    position: relative;
+    top: 6.5rem;
+    right: 13.5rem; 
+  
+    height: 30px;
+    width: 25px;
+    padding: 1px 0 0 1px; 
+    
+}
+#l-rua {
+    position: relative;
+    top: 9.5rem;
+    right: 43rem; 
+   
+    height: 50px;
+    width: 200px;
+    padding: 1px 1 0 100px; 
+}
+#place {
+    position: relative;
+    top: 10rem;
+    right: 37.5rem; 
+
+    height: 50px;
+    width: 25px;
+    padding: 1px 0 0 1px; 
+}
+#dev {
+    position: relative;
+    top: 10rem;
+    right: 25rem; 
+   
+    height: 50px;
+    width: 200px;
+    padding: 1px 1 0 100px; 
+}
+#logo-footer{
+    position: relative;
+    top: 5rem;
+    left: 1rem; 
+    height: 90px;
+    width: 80px;
+}

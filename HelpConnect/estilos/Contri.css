@@ -1,0 +1,17 @@
+#titulo-contribuicao{
+    background-color: var(--cor-primaria);
+    display: flex;
+    gap: 5%;
+    color: var(--cor-secundaria);
+    border-style: solid;
+    height: 36rem;
+
+}
+#i14mil{
+    background-color: var(--cor-primaria);
+    display: flex;
+    gap: 5%;
+    color: var(--cor-secundaria);
+    border-style: solid;
+    height: 36rem;
+}

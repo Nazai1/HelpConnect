@@ -1,0 +1,50 @@
+#ongs{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    gap: 5%;
+    color: var(--cor-primaria);
+    border-style: solid;
+    height: 36rem;
+}
+#titulo-ongs {
+   position: relative;
+   top: 30px;
+   left: 50.5rem;
+    font-size: 3rem;
+}
+#cards{
+   display:contents;
+}
+#card-um {
+    background-color: var(--cor-primaria);
+    width: max-content;
+    height: max-content;
+    margin-top: 12rem;
+    padding: 5rem 6rem 0 3rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#img-maos {
+    width: 100px;
+    height: 100px;
+  
+}
+#card-dois {
+    background-color: var(--cor-primaria);
+    width: max-content;
+    height: max-content;
+    margin-top: 12rem;
+    padding: 6.2rem 4rem 0 2rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#card-tres {
+    background-color: var(--cor-primaria);
+    width: max-content;
+    height: max-content;
+    margin-top: 12rem;
+    padding: 6.2rem 5.8rem 0 2rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
