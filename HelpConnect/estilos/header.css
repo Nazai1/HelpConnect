@@ -1,81 +1,104 @@
 header {
-    background-image: url(../img/1.png);
-    background-color: grey;
+    height: 100%;
+    background-image: url(https://pbs.twimg.com/media/FQqVkzJUYAI0ezi?format=jpg&name=4096x4096);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 58rem;
+    background-position: center;
     color: white;
-    padding: 0;
 }
 
 #logo {
     height: 90px;
     width: 80px;
-    padding: 1.5rem 0 0 1rem; 
 }
 
 #login {
-    height: 54px;
-    width: 62px;
-    padding: 1.5rem 0 0 1rem; 
+    height: 48px;
+    width: 48px;
 }
 
 #barra-nav {
     display: flex;
-    margin-left: 2rem;
-    width: fit-content;
-    gap: 50%;
-   
+    justify-content: space-between;
+    align-items: center;  
+    margin: 0 2rem;
 }
 
 #lista-um {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    font-size: 20px;
 }
 
 .nav-lista {
+    width: 120%;
     list-style-type: none;
     cursor: pointer;
-    padding-left: 1rem;
+    padding: 0 1rem 0 2rem;
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
-    padding-right: 2rem;
-    width: 120%;
 }
 
 a {
     text-decoration: none;
 }
 
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
 #texto-inicial {
-    margin: 8rem 0 0 0;
-    text-align: left;
-    font-size: 6rem;
+    margin: 62px 24px 0;
     font-family: var(--fonte-titulo);
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-primary {
+    color: var(--cor-secundaria);
 }
 
 #subtexto {
-    margin: auto;
-    padding-top: 1.5rem;
-    text-align: left;
-    font-size: 2rem;
+    margin: 15px 24px 0;
     font-family: var(--fonte-texto);
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#conhecer-mais {
+    display: flex;
+    width: 200px;
+    position: relative;
+    top: 80px;
+    left: 40%;
 }
 
 #seta {
+    font-family: var(--fonte-texto);
+    font-size: 20px;
     color: #fff;
-    height: 9px;
-    width: 8px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-align: center;
     padding: 10px 20px 10px 20px;
-    position: relative;
-   top: 130px;
-   left: 50rem;
-    font-size: 1rem;
-    border-style: solid;
-    border-color: var( --cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 5px;
 }
+
+#seta:hover {
+    background-color: var(--cor-secundaria);
+    transition: 0.3s;
+}
+
+/* 
+
+pra quê serve isso?
+
 .produto-container{
     display: flex;
     width: 100%;
@@ -88,3 +111,5 @@ a {
     }
 
 }
+
+*/
