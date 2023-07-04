@@ -1,36 +1,41 @@
+main {
+    height: 100vh;
+    width: 100%;
+}
+
 #sobre {
-    background-color: var(--cor-primaria);
     display: flex;
-    gap: 5%;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
     color: var(--cor-secundaria);
 }
 
-#img-help {
-    height: 360px;
-    width: 600px;
-    margin: 6rem 0 8rem 8rem;
-    
-   
+#img-help img {
+    width: 580px;
+    height: 516px;
+    margin: 10px 55px 0;
+    border-radius: 50px 0 0 0;
 }
 
 #titulo-help {
-    padding: 1rem 0 2rem 0;
     font-family: var(--fonte-subtitulo);
-    font-size: 6rem;
-   
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
 #subtexto-help {
     font-family: var(--fonte-texto);
-    margin-left: 10rem;
-    width: 80%;
+    font-size: 20px;
     color: var(--cor-quaternaria);
-   
+    text-align: right;
 }
 
+
+/* 
 .lista-obj {
     padding-bottom: 10px;
     font-size: 2rem;
     list-style-type: disc;
     line-height: 120%;
-}
+} */
