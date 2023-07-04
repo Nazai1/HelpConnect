@@ -1,50 +1,64 @@
 #ongs{
     background-color: var(--cor-secundaria);
     display: flex;
-    gap: 5%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
     color: var(--cor-primaria);
-    border-style: solid;
-    height: 36rem;
-}
-#titulo-ongs {
-   position: relative;
-   top: 30px;
-   left: 50.5rem;
-    font-size: 3rem;
-}
-#cards{
-   display:contents;
-}
-#card-um {
-    background-color: var(--cor-primaria);
-    width: max-content;
-    height: max-content;
-    margin-top: 12rem;
-    padding: 5rem 6rem 0 3rem;
-    border: 2px solid black;
-    border-radius: 15px;
+    overflow: hidden;
 }
 
-#img-maos {
-    width: 100px;
-    height: 100px;
-  
+#titulo-ongs {
+    font-family: var(--fonte-subtitulo);
+    font-size: 60px;
+    margin: 50px 0;
 }
-#card-dois {
-    background-color: var(--cor-primaria);
-    width: max-content;
-    height: max-content;
-    margin-top: 12rem;
-    padding: 6.2rem 4rem 0 2rem;
-    border: 2px solid black;
-    border-radius: 15px;
+
+#cards-container {
+    display: flex;
+    width: fit-content;
+    gap: 16px;
+    margin-left: 16px;
 }
-#card-tres {
+
+.cards {
     background-color: var(--cor-primaria);
-    width: max-content;
-    height: max-content;
-    margin-top: 12rem;
-    padding: 6.2rem 5.8rem 0 2rem;
-    border: 2px solid black;
-    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-align: center;
+}
+
+.imagens-cards {
+    width: 100%;
+    height: 50%;
+}
+
+.imagens-cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards h3 {
+    font-size: 24px;
+    font-family: var(--fonte-subtitulo);
+    color: var(--cor-secundaria);
+    text-transform: lowercase;
+    margin: 8px 0 80px;
+}
+
+.ajude {
+    font-size: 16px;
+    padding: 5px 30px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    text-transform: lowercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ajude:hover {
+    background-color: #ccad77;
 }
